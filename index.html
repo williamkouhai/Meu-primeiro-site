@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="autor" content="william silva, RA:201920768 TURMA: TADS NOTURNO">
+            <meta name="keywords" content="HTML5, CSS3, JS">
+<title>Meu projeto - william silva</title>
+<link rel="icon" href="img/fma-logo.png" class="scrollspy"><!-- Logo da Página-->
+<!--Materialize CSS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<!--Custom CSS-->   
+<link rel="stylesheet" href="css/custom.css">
+<!--GOOGLE ICONS-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+    <body class="home">
+        <!--Meu Header-->
+        <header>
+            <!--Menu para mobile-->
+                <ul class="side-nav" id="menu-mobile">
+                        <li><a href="#home">Home</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#hobbies">Hobbies</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+            <div class="navbar-fixed">
+                <nav class="navbar z-depth-0">
+                    <div class="nav-wrapper container">
+                     <h1 class="logo_text">Meu projeto
+                        </h1><!-- LOGO do MENU-->
+                        <a href=""><img class="logo_img" src="img/fma-logo.png" alt="Minha-pagina"></a>
+                        <!--menu para computadores-->
+                            <ul class="right light hide-on-med-and-down">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#hobbies">Hobbies</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                            </ul>
+                        <a a href="#sobre" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+                    </div>
+                </nav>
+             </div>
+        </header>
+        <!--Home-->
+        <section id="home" class="scrollspy" ><!--Row é uma linha-->
+            <div class="row container banner"><!--Container centraliza elementos e cria espaçamentos nas laterais-->
+                <div class="col s12 center"><!-- 12 colunas-->
+                <h2 class="white-text">Meu Projeto</h2>
+                <p class="white-text">Comecei essa página para aprender sobre desenvolvimento web, e apresentar como meu trabalho.<br>
+                Meu nome é William, tenho 22 anos e moro em brasília-DF.</p>
+                <div class="row">
+                    <a class="btn btn-large blue-logo" href="#sobre">Sobre mim</a>
+                    <a class="btn btn-large white black-text" href="#contato">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SOBRE-->
+        <!--Row é uma linha-->
+        <section class="sobre bloco scrollspy" id="sobre">
+            <div class="row container">
+                <div class="col s12 center"><!-- 12 colunas-->
+                    <h2 class="">Sobre Mim</h2><!--Light para o texto ficar mais suave. O LIGHT É UMA CLASSE NATIVA DO FRAMEWORK-->
+                </div>
+                <div class="col s12 l6">
+                    <p class="light center">Olá, me chamo William Silva, nasci e cresci em brasília-DF.
+                        Atualmente estudo na Universidade Projeção de Sobradinho.
+                        Curso Tecnólogo em Análise e Desenvolvimento de Sistemas.
+                        Faço estágio no Censipam (Centro Gestor e Operacional do Sistema de Proteção da Amazônia).
+                        Estarei me formando no ano de 2020, e espero conseguir começar a atuar na área de Desenvolvimento.
+                     </p>
+                </div>
+                <div class="col s12 l6"><!-- a imagem ou qualquer q seja, ocupa 6 colunas assim como o texto -->
+                    <div class="carousel carousel-slider"><!--AQUI FICA O CAROUSEL, TENTEI DEIXAR AUTOMATICO MAS NAO CONSEGUI-->
+                        <a href="" class="carousel-item"><img src="img/perfil1.jpeg" alt="Sobre mim" ></a>
+                        <a href="" class="carousel-item"><img src="img/perfil2.jpeg" alt="Sobre mim" ></a>
+                        <a href="" class="carousel-item"><img src="img/perfil3.jpeg" alt="Sobre mim" ></a>
+                    </div>
+                 </div>
+            </div>
+            <div class="row artigos video-musica-leitura scrollspy" id="hobbies" > <!--PARTE DE HOBBIES-->
+                    <div class="container">
+                            <br><br><br><br>
+                        <h2 class="white-text center" heigth="150px" >Hobbies</h2>
+                            <article class="item col s12 m4 center">
+                                <span class="icon"><i class="material-icons">music_video</i></span>
+                                <h3 class="light">Animes</h3><hr> 
+                                <p class="light center">Full metal alchemist: Brotherhood Trailer<video width="350px" heigth="200px" controls>
+                                    <source src="audiovisual/fma-trailer.mp4" type="video/mp4">
+                                </video></p>
+                            </article>
+
+                            <article class="item col s12 m4 center">
+                                    <span class="icon"><i class="material-icons">
+                                            audiotrack
+                                            </i></span>
+                                    <h3 class="light">Músicas</h3><hr>
+                                    <p class="light">Fullmetal Alchemist Brotherhood Golden Time Lover<audio controls>
+                                       <source src="audiovisual/fma-op.opus" type="audio/mp4">
+                                    </audio></p>
+                                </article>
+                                <article class="item col s12 m4 center">
+                                        <span class="icon">c<i class="material-icons">
+                                                chrome_reader_mode
+                                                </i></span>
+                                        <h3 class="light">leituras</h3><hr> 
+                                        <p class="light">
+                                                •Mangás Japoneses<br>
+                                                •Manhwas Coreanos<br>
+                                                •Manhuas Chineses<br>
+                                                •Clássicos sobre Estratégias militares         
+                                        </p>
+                                    </article>
+                    </div>
+            </div>
+            <!-- Formulário -->
+            <section class="form-section center scrollspy" id="contato">
+                <h1>Contato</h1>
+                <div class="form-wrapper">
+                  <form action="index.html">
+                      <div class="input-block">
+                          <label for="login-email">Nome</label>
+                          <input type="text" required/>
+                      </div>
+                    <div class="input-block">
+                      <label for="login-email">Email</label>
+                      <input type="email" id="login-email" required/>
+                    </div>
+                    <div class="input-block">
+                      <label for="login-email">Telefone</label>
+                      <input type="tel"required/></div>
+                    <button type="submit" class="btn-login" value="Enviar">Enviar</button>
+                  </form>
+                </div>
+              </section>
+        </section>
+       
+        <!--Jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!--Materialize JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <!--jAVASCRIPT-->
+        <script>
+            //INICIALIZAÇÃO
+            $(document).ready(function(){
+                // MENU MOBILE
+                $(".button-collapse").sideNav();
+            //Link interno
+            $(".scrollspy").scrollSpy({
+                scrollOffset:0
+            });
+            // CAROUSEL
+            $(".carousel.carousel-slider").carousel({
+                fullWidth:true
+            })
+        });
+            // NAVCOLOR
+            $(window).on("scroll", function(){
+                if($(window).scrollTop() > 340) {
+                    $(".navbar").addClass("nav-color");
+                }
+                else {
+                    $(".navbar").removeClass("nav-color");
+                }
+            });
+        </script>
+     </body>
+</html>
